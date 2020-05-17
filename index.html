@@ -2,20 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kyllder Rocha</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Press+Start+2P&family=Source+Code+Pro&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2bd87d7f4b.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="menu">
-          <ul>
+          <ul class="container">
             <li><a href="#">Sobre</a></li>
-            <li><a href="#">Portfólio</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#portfolio">Portfólio</a></li>
+            <li><a href="#contato">Contato</a></li>
           </ul>
         </nav>
-        <h1 class="site-title">Kyllder Rocha</h1>
-        <h2 class="site-subtitle">full stack developer</h2>
+        <div class="title">
+          <h1 class="site-title">Kyllder Rocha</h1>
+          <h2 class="site-subtitle">full stack developer</h2>
+          <h2 class="site-subtitle">técnico em informática</h2>
+          <h2 class="site-subtitle">analista de sistemas</h2>
+          
+        </div>
       </header>
+      <section class="sobre container">
+        <h2>Sobre</h2>
+
+        <figure class="avatar">
+          <img src="./assets/profile.jpg" alt="profile">
+        </figure>
+
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque voluptatibus ducimus soluta incidunt facilis, perferendis molestiae alias, et pariatur velit esse tempora, id quasi dolor provident nulla quod nobis possimus.</p>
+        <p>Veniam quasi ipsum id cum, repudiandae, dicta itaque quis suscipit dignissimos sed excepturi error enim earum aspernatur facere, consectetur soluta debitis. Eaque magnam consectetur magni hic maiores. Eveniet, laboriosam quae!</p>
+        <p>Dicta modi beatae optio, molestiae perspiciatis velit nemo error odio ab quia illum repellendus, nam quis rerum a totam, animi ullam sunt explicabo? Eaque qui iste blanditiis, hic consectetur earum!</p>
+        <p>Harum reprehenderit officiis veniam ut illo, quaerat aspernatur earum aut ea nobis porro eaque laboriosam accusantium, qui et itaque assumenda ipsum suscipit labore! Quidem quam velit, praesentium et modi saepe.</p>
+      </section>
+      <section class = "portfolio container" id="portfolio">
+        <h2>Portfólio</h2>
+        <div class="grid">
+
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./assets/ecommerce-creditos-s-o-c-i-a-l-c-u-t-unsplash.jpg" alt="eCommerce">
+                <figcaption>eCommerce</figcaption>
+              </figure>
+              <div class="card-back">
+                eCommerce
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./assets/mobile-creditos-nate-grant-unsplash.jpg" alt=">Mobile">
+              <figcaption>Mobile</figcaption>
+              </figure>
+              <div class="card-back">
+                Mobile
+              </div>
+            </div>
+          </div>
+          
+
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./assets/webdesign-creditos-domenico-loia-unsplash.jpg" alt="Web design">
+                <figcaption>Web design</figcaption>
+              </figure>
+              <div class="card-back">
+                Web design
+              </div>
+            </div>
+          </div>
+          
+          
+          <div class="flip-card">
+            <div class="card">
+              <figure class="card-front">
+                <img class="img-portfolio" src="./assets/projpessoais-creditos-hal-gatewood-unsplash.jpg" alt="Projetos pessoais">
+                <figcaption>Projetos pessoais</figcaption>
+              </figure>
+              <div class="card-back">
+                Projetos pessoais
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </section>
+      <section class="contato conatiner" id="contato">
+        <h2>Contato</h2>
+        <div class="grid icons">
+          <a target="_blank" href="https://www.instagram.com/kyllder_rocha/?hl=pt-br">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a target="_blank" href="https://github.com/KyllderRocha">
+            <i class="fab fa-github"></i>
+          </a>
+          <a target="_blank" href="https://twitter.com/kyllder10">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="mailto:kyllder.rocha@gmail.com">
+            <i class="fas fa-envelope"></i>
+          </a>
+        </div>
+      </section>
 </body>
 </html>
